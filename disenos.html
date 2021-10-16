@@ -8,98 +8,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet" href="disenos.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
     <title>Dark Blood</title>
 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-black">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Dark<span class="text-primary">Blood</span>.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="bootstrap.html">Dark<span class="text-primary">Blood</span>.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link text-dark" aria-current="page" href="bootstrap.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Nuestro diseños</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Promociones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Sobre nosotros</a>
+                        <a class="nav-link text-dark" href="disenos.html">Nuestro diseños</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="btn btn-ligth" href="#">Inicia Sesión</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary" href="#">Compra tu camiseta</a>
+                        <a class="btn btn-primary" href="compra.html">Compra tu camiseta</a>
                     </li>
-                </ul>
-            </div>
-        </div>
+              </ul>
+          </div>
+       </div>
     </nav>
 
-    <div class="wrapper">
-        <div class="carousel" tabindex="0">
-          <div class="slide">
-            <a href="#item-4">Slide 4</a>
-            <img id="item-1" src="images/coraje.png" alt="">
-            <a href="#item-2">Slide 2</a>
-          </div>
-          <div class="slide">
-            <a href="#item-1">Slide 1</a>
-            <img id="item-2" src="images/lobo.png" alt="">
-            <a href="#item-3">Slide 3</a>
-          </div>
-          <div class="slide">
-            <a href="#item-2">Slide 2</a>
-            <img id="item-3" src="images/mujer.png" alt="">
-            <a href="#item-4">Slide 4</a>
-          </div>
-          <div class="slide">
-            <a href="#item-3">Slide 3</a>
-            <img id="item-4" src="images/tropel.png" alt="">
-            <a href="#item-1">Slide 1</a>
-          </div>
+    <div class="grid">
+      <div class="sidebar1">
+          <img src="images/coraje.png" alt="">
+      </div>
+
+      <div class="contenido">
+        <img src="images/lobo.png" alt="">
+      </div>
+
+      <div class="widget">
+        <img src="images/mujer.png" alt="">
+      </div>
+
+      <div class="sidebar2">
+          <img src="images/tropel.png" alt="">
+      </div>
+
+      <div class="footer">
+          <img class="abajo" src="images/ambos.jpg" alt="">
+      </div>
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/soydarkblood/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- WPP -->
+            <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/darkblood_store/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+    
+          </section>
+
         </div>
-        <nav class="carousel__nav">
-          <ul>
-            <li>
-              <a href="#item-1" aria-label="Item 1">
-              <svg viewBox="0 0 10 10" width="1em">
-                <circle cx="5" cy="5" r="5" fill="#fff" />
-              </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#item-2" aria-label="Item 2">
-              <svg viewBox="0 0 10 10" width="1em">
-                <circle cx="5" cy="5" r="5" fill="#fff" />
-              </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#item-3" aria-label="Item 3">
-              <svg viewBox="0 0 10 10" width="1em">
-                <circle cx="5" cy="5" r="5" fill="#fff" />
-              </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#item-4" aria-label="Item 4">
-              <svg viewBox="0 0 10 10" width="1em">
-                <circle cx="5" cy="5" r="5" fill="#fff" />
-              </svg>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright: Dark Blood
         </div>
-</body>
+      </footer>
+  </body>
 </html>
